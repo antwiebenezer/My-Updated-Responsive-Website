@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Edu+NSW+ACT+Foundation:wght@400;500;700&family=Finlandica:ital,wght@0,600;1,400&family=Fraunces:opsz@9..144&family=Gideon+Roman&family=Gidugu&family=Girassol&family=Gugi&family=IM+Fell+Double+Pica+SC&family=IM+Fell+English+SC&family=IM+Fell+Great+Primer+SC&family=Lexend+Giga:wght@100;400&family=Montserrat:ital@1&family=Original+Surfer&family=Poppins:ital,wght@0,300;1,100&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Sura:wght@400;700&display=swap');
+
+/* font-family: 'Arvo', serif;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Finlandica', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Gideon Roman', cursive;
+font-family: 'Gidugu', sans-serif;
+font-family: 'Girassol', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'IM Fell Double Pica SC', serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'IM Fell Great Primer SC', serif;
+font-family: 'Lexend Giga', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Original Surfer', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sura', serif; */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    background: black;
+}
+#navbar img{
+    width: 60px;
+    cursor: pointer;
+}
+#navbar ul{
+    display: none;
+}
+.logo{
+    color: white;
+    margin-bottom: 27px;
+    font-family: 'Gugi', cursive;
+}
+#section1{
+    background-image: linear-gradient(to right top, #200bba, #0057e2, #0083ec, #00a8e4, #00c9da);
+}
+#section1 h1{
+    font-size: 45px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 20px;
+    font-family: 'Gugi', cursive;
+}
+#section1 span{
+    font-size: 60px;
+    color: white;
+}
+#section1 p{
+    color: white;
+    margin: 0px 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Sura', serif;
+    /* line-height: 20px; */
+}
+#section1 img{
+    width: 86%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10%;
+}
+button{
+    outline: none;
+    margin: 5px 40px 15px 40px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(22, 180, 253);
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Sura', serif;
+    transition: 0.7s;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+button:hover{
+    background: rgb(22, 180, 253);
+    outline: none;
+}
+#section2{
+    background-image: linear-gradient(to right top, #ba4056, #cc2b6a, #d80388, #db00ad, #cf00da);
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+#section2 p{
+    padding: 0px 20px 30px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Original Surfer', cursive;
+}
+#section2 img{
+    display: none;
+}
+#section2 h1{
+    padding: 20px 10px 5px 10px;
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: underline;
+}
+#my-skills{
+    background: #3C3744;
+    padding: 30px;
+}
+.skill{
+    background-image: linear-gradient(to right top, #677487, #3f93ad, #00b3b0, #41cd89, #b0dd4b);
+    margin: 33px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px grey;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.skill p{
+    color: white;
+    font-family: 'Original Surfer', cursive;
+}
+#skill.head{
+    padding: 10px;
+    color: white;
+    margin-top: 0px;
+    margin: 200px;
+    text-align: center;
+}
+.skill h1{
+    color:gainsboro;
+    padding: 10px;
+    color: white;
+    margin-top: 0px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#my-skills > h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 20px 10px 5px 10px;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: underline;
+}
+#form-bg{
+    background-color:darkcyan;
+}
+form{
+    margin: 40px 40px 0px 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+#form-bg h1{
+    padding: 20px 10px 5px 10px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: underline;
+}
+#form-img img{
+    display: none;
+}
+#form-bg input, textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+}#form-bg input.inp{
+    border-bottom: 2px solid coral;
+    color: white;
+}
+#form-bg input::placeholder{
+    color: white;
+}
+#form-bg textarea::placeholder{
+    color: white;
+}
+#form-bg input:focus{
+    outline: none;
+}
+#form-bg textarea:focus{
+    outline: none;
+}
+#form-bg textarea.msg{
+    border: 2px solid coral;
+    color: white;
+}
+#form-bg input.submit{
+    border: 2px solid coral;
+    color: white;
+    transition: 0.9s;
+    margin-bottom: 30px;
+}
+#form-bg input.submit:hover{
+    background-color: coral;
+    border: none;
+}
+#contact-info{
+    background-color: rgb(78, 53, 119);
+    text-align: center;
+    padding: 17px;
+    color: whitesmoke;
+    font-family: 'Original Surfer', cursive;
+}
+#contact-info h1{
+    margin-top: 0px;
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: underline;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+footer p{
+    margin: 0px;
+    font-family: 'Original Surfer', cursive;
+}
+@media only screen and (min-width:410px) and (max-width: 744px){
+    .skill{
+        width: 52%;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #my-skills{
+        background: #3C3744;
+        margin: 0px auto;
+    }
+    form{
+        margin: 0px auto;
+        text-align: center;
+        margin-top: 0px;
+        width: 400px;
+    }
+    #section2 p{
+        width: 80%;
+        margin: 0px auto;
+    }
+    #section1 img{
+        width: 60%;
+        padding: 10px;
+        border-radius: 7%;
+    }
+    #section1 p{
+        width: 80%;
+    }
+    form{
+        width: 350px;
+    }
+}
+
+/* media query for 500px screen size */
+@media only screen and (min-width:745px){
+    #section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section1 h1{
+        font-size: 50px;
+        width: 40%;
+        padding: 10px 50px 0px 50px;
+        margin: 20px 10px;
+    }
+    #section1 p{
+        margin: 0px 50px;
+        padding: 10px;
+        font-size: 20px;
+        width: 90%;
+    }
+    #section1 img{
+        margin-bottom: 20px;
+        display: flex;
+        border-radius: 10%;
+        width: 70%;  
+    }
+    button{
+        width: 150px;
+        margin: 5px 50px 15px 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #section2 img{
+        display: block;
+        width: 300px;
+        border-radius: 5%;
+        margin-left: 20px;
+        box-shadow: 4px 4px 4px white;
+        margin-right: 5px;
+        margin-left: 30px;
+    }
+    #section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    #section2 p{
+        width: 400px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .contain-skills{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .skill{
+        width: 250px;
+        margin: 20px;
+    }
+    #form-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #form-img img{
+        /* width: 70%; */
+        margin-right: 30px;
+        border-radius: 3%;  
+    }
+    form{
+        width: 60%;
+        margin: 0px auto;
+    }
+}
+@media only screen and (min-width: 949px){
+    #section1{
+        justify-content: space-between;
+    }
+    #section1 h1{
+        font-size: 70px;
+        width: 500px;
+    }
+    #section1 p{
+        font-size: 20px;
+        width: 400px;
+    }
+    #section1 img{
+        /* margin: 0px; */
+        width: 90%;
+        margin-right: 60px;
+    }
+    #section2{
+        justify-content: center;
+    }
+    #section2 p{
+        margin: 20px;
+    }
+    #section2 img{
+        width: 470px;
+    }
+    .skill{
+        margin: 10px 70px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    #section1 img{
+        width: 80%;
+    }
+    #section1 h1{
+        font-size: 80px;
+        width: 600px;
+    }
+    #section1 p{
+        font-size: 20px;
+        width: 500px;
+    }
+}
